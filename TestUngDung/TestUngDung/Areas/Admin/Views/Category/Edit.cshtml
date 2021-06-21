@@ -1,0 +1,58 @@
+﻿
+@model ModelEF.Model.Category
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Category</h2>
+@using (Html.BeginForm("Edit", "Category", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationMessage("ThongBaoLoi")
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Please enter full information
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form role="form">                               
+                                <div class="form-group">
+                                    <div class="col-md-10">
+                                        <label>Name</label>
+                                        @Html.EditorFor(model => model.Name, new {
+                                        htmlAttributes = new { @class = "form-control" } })
+
+                                        @Html.ValidationMessageFor(model => model.Name,
+                                        "", new { @class = "text-danger" })
+                                    </div>
+                                </div>                              
+                                <div class="form-group">
+                                    <div class="col-md-10">
+                                        <label>Status</label>
+                                        @Html.EditorFor(model => model.Desciption, new {
+                                        htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Desciption,
+                                        "", new { @class = "text-danger" })
+                                    </div>
+                                </div>                              
+                            </form>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" style="margin-top:30px" onclick="return confirm('Are u sure to update this category?')" value="Update" class="btn btn-success" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<div>
+    <a href="@Url.Action("Index", "Category")" class="btn btn-primary">Back to list</a>
+</div>
+

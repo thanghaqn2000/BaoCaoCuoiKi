@@ -1,0 +1,16 @@
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\ModelEF.dll.config
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\ModelEF.dll
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\ModelEF.pdb
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\EntityFramework.dll
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\EntityFramework.xml
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\obj\Debug\ModelEF.dll
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\obj\Debug\ModelEF.pdb
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\PagedList.dll
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\PagedList.Mvc.dll
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\PagedList.xml
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\bin\Debug\PagedList.Mvc.xml
+E:\HK220\C#\Lí thuyết\TestUngDung\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
